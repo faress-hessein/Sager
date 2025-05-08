@@ -1,0 +1,54 @@
+.landing {
+  position: relative;
+  background-image: url(img/Sagre.jpg);
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 0 20px 20px;
+}
+.landing::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -70px;
+  height: 150px;
+  width: 150px;
+  background-image: url(img/Sagre-logo.png);
+  background-position: center;
+  background-size: cover;
+  border: 10px solid #ffffff;
+  border-radius: 50%;
+  transform: translate(-50%, 0);
+}
+.modile {
+  margin-top: 80px;
+}
+.modile h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.modile p {
+  margin-bottom: 10px;
+}
+.modile i {
+  font-size: 30px;
+}
+.modile .text {
+}
+.modile .text svg {
+  height: 35px;
+  padding-left: 10px;
+}
+.modile .box {
+  padding: 50px 20px;
+  background-color: #f2d23152;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+.modile .info svg,
+.modile .info img {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 40px;
+}
